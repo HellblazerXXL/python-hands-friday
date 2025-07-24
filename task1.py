@@ -24,5 +24,13 @@ print(meals)
 
 # 3.
 
-meals
+meals[2],meals[-1] = meals[-1],meals[2]
+print(meals)
+
+# 4.
+
+
+# 5.
+
+meals.sort()
 print(meals)
