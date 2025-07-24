@@ -10,3 +10,21 @@ money = [1000, 1200, 800, 1500, 1100]
 
 → Perform the corrections and computations, and print all results.
 """
+
+# 2.
+money = [1000, 1200, 800, 1500, 1100]
+money1, money2, money3, money4, money5 = money[:]
+total_money = money1 + money2 + money3 + money4 + money5
+print("Total money is = ", total_money)
+
+# 2.
+
+money[2] = 1000
+print(money)
+
+
+# 3.
+
+
+print(money[::-1])
+
